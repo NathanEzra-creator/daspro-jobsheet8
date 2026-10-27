@@ -35,5 +35,6 @@ public class Tugas325 {
         System.out.println("Total barang seluruh toko: " + totalSeluruhBarang);
         System.out.println("Toko dengan barang terbanyak: " + tokoTerbanyak);
         sc.close();
+        
     }
 }

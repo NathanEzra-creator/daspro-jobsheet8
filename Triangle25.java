@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class Triangle25 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -13,6 +14,16 @@ public class Triangle25 {
             }
             System.out.println();
             i++;
+        }
+        i = n;
+        while (i >= 1) {
+            int j = 0;
+            while (j < i) {
+                System.out.print("*");
+                j++;
+            }
+            System.out.println();
+            i--;
         }
         sc.close();
     }

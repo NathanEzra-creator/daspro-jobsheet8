@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class NilaiKelompok25 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -10,13 +11,17 @@ public class NilaiKelompok25 {
         if (jumlahKelompok <= 0 || jumlahPenilai <= 0) {
             System.out.println("Jumlah kelompok dan penilai harus > 0.");
         } else {
-            int nomorKelompok = 1;
-            double rataTertinggi = -1;
+            int nomorKelompok = 1;       // penghitung outer loop
+            double rataTertinggi = -1;   // -1 agar kelompok pertama pasti tercatat
             int kelompokTerbaik = 0;
             
             while (nomorKelompok <= jumlahKelompok) {
                 System.out.println("Kelompok " + nomorKelompok);
                 double totalNilai = 0;
+
+                // inner loop penilai (langkah 5)
+
+                // hitung rata-rata dan cek kelompok terbaik (langkah 6-7)
                 
                 for (int j = 1; j <= jumlahPenilai; j++) {
                     int nilai;

@@ -17,5 +17,6 @@ public class Tugas225 {
         }
         System.out.println("Jumlah seluruh angka: " + totalSum);
         sc.close();
+        
     }
 }
